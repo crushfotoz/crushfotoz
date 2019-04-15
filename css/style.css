@@ -25,8 +25,7 @@ body{
 }
 
 .top-nav-collapse {
-  background-color: #242425 !important;
-  }
+  background: linear-gradient(to bottom right, #212121 0%, #37474f 100%);  }
   
   .navbar:not(.top-nav-collapse) {
   background: transparent !important;
@@ -34,8 +33,7 @@ body{
   
   @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
-  background: #242425 !important;
-  }
+    background: linear-gradient(to bottom right, #212121 0%, #37474f 100%);  }
   }
   
 

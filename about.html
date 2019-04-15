@@ -41,114 +41,96 @@
   </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+  
         <div class="container">
-            <a class="navbar-brand text-uppercase white-text" id="crush" style="border:4px solid grey;">crush <span class="red-text">
-                <i class="fas fa-camera"></i></span> fotoz</a>
-                <button class="navbar-toggler" type="button">
-                <span><div class="" id="menu-click"
-                  onclick="openNav()">
-               <div class="div"></div>
-               <div class="div"></div>
-               <div class="div"></div>
-             </div>
-            </span>
-              </button>
-      </nav>
-  <!-- The overlay -->
-  <div class="overlay fixed-top"
-  id="myNav">
-<!-- Button to close the overlay navigation -->
-<a class="closebtn mt-3"
-    href="javascript:void(0)"
-    onclick="closeNav()">&times;</a> <!-- Overlay content -->
-<div class="overlay-content mt-5">
-   
- <h1 class="h1-responsive text-uppercase white-text pb-2">crush <span class="red-text text-center">
-     <i class="fas fa-camera"></i></span> fotoz</h1>
- <div class="container text-center">
-   <img alt=""
-        class="img-fluid rounded-circle khandee-img mb-5"
-        src="images/FB_IMG_1551735468842.jpg">
-
-        <div class="container d-flex justify-content-center align-items-center">
-          <div class="row text-center"id="social" style="width:30%;">
-            <div class="col-sm-4 px-0">
-              <a class="nav-link waves-effect waves-light white-text" href="https://www.twitter.com/khandee_crush" target="_blank">
-                <i class="fab fa-twitter"></i>
-              </a>
-            </div>
-            <div class="col-sm-4 px-0">
-              <a class="nav-link waves-effect waves-light white-text"href="https://www.instagram.com/crush_fotoz_" target="_blank">
-                <i class="fab fa-instagram"></i>
-              </a>
-            </div>
-            <div class="col-sm-4 px-0">
-              <a class="nav-link waves-effect waves-light white-text" href="https://www.facebook.com/crushfotoz/" target="_blank">
-                <i class="fab fa-facebook"></i>
-              </a>
-            </div>
+    
+            <a class="navbar-brand text-uppercase white-text px-3" id="crush" style="border:2px solid grey;">crush <span class="red-text">
+                <i class="fas fa-camera"></i></span> fotoz</a>  
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    
+            <ul class="navbar-nav mr-auto smooth-scroll list-unstyled">
+                <li class="nav-item px-3">
+                    <a class="nav-link"
+                        href="index.html"><i class="fa fa-fw fa-home"></i> Home<span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link"
+                        data-offset="90"
+                        href="about.html"><i class="far fa-address-card"></i> About Me</a>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link"
+                        data-offset="90"
+                        href="services.html"><i class="fa fa-fw fa-wrench"></i> Services</a>
+                  </li>
+                  <li class="nav-item px-3 dropdown">
+                    <a aria-expanded="false"
+                        aria-haspopup="true"
+                        class="nav-link dropdown-toggle white-text"
+                        data-offset="30"
+                        data-toggle="dropdown"
+                        role="button"><i class="fab fa-envira"></i> Gallery</a>
+                    <ul class="dropdown-menu text-center"
+                        style="background-color:#353230">
+                      <li class="nav-item">
+                        <a class="nav-link grey-text"
+                            href="outdoor.html">Outdoor Photos</a>
+                      </li>
+                      <li class="nav-item px-2 py-0">
+                        <a class="nav-link font-weight-bold grey-text"
+                            href="beauty.html">Beauty Photos</a>
+                      </li>
+                      <li class="nav-item px-2 py-0">
+                        <a class="nav-link font-weight-bold grey-text"
+                            href="food.html">Food Gallery</a>
+                      </li>
+                      <hr class="py-0 my-0">
+                      <li class="nav-item px-2 py-0">
+                        <a class="nav-link font-weight-bold grey-text"
+                            href="portrait.html">Portrait Photos</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item px-3">
+                    <a class="nav-link"
+                        data-offset="90"
+                        data-toggle="modal"
+                        href="#exampleModal"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+                  </li>
+            </ul>
+    
+            <!-- Social Icon  -->
+            <ul class="navbar-nav nav-flex-icons px-4">
+                <li class="px-0 nav-item">
+                    <a class="nav-link waves-effect waves-light white-text" href="https://www.twitter.com/khandee_crush" target="_blank">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="px-0 nav-item">
+                    <a class="nav-link waves-effect waves-light white-text"href="https://www.instagram.com/crush_fotoz_" target="_blank">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </li>
+                  <li class="px-0 nav-item">
+                    <a class="nav-link waves-effect waves-light white-text" href="https://www.facebook.com/crushfotoz/" target="_blank">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                  </li>
+            </ul>
+    
           </div>
+    
         </div>
-      <ul class="navbar-nav mx-auto smooth-scroll">
-       <li class="nav-item px-2">
-           <a class="nav-link"
-               href="index.html"><i class="fa fa-fw fa-home"></i> Home<span class="sr-only">(current)</span></a>
-         </li>
-         <hr class="py-0 my-0">
-         <li class="nav-item px-4">
-           <a class="nav-link"
-               data-offset="90"
-               href="about.html"><i class="far fa-address-card"></i> About Me</a>
-         </li>
-         <hr class="py-0 my-0">
-         <li class="nav-item px-4">
-           <a class="nav-link"
-               data-offset="90"
-               href="services.html"><i class="fa fa-fw fa-wrench"></i> Services</a>
-         </li>
-         <li class="nav-item px-4 dropdown">
-           <a aria-expanded="false"
-               aria-haspopup="true"
-               class="nav-link dropdown-toggle grey-text"
-               data-offset="30"
-               data-toggle="dropdown"
-               role="button"><i class="fab fa-envira"></i> Gallery</a>
-           <ul class="dropdown-menu text-center"
-               style="background-color:#353230">
-             <li class="nav-item font-weight-bold px-2 py-0">
-               <a class="nav-link grey-text"
-                   href="outdoor.html" style="font-size: 1.2rem;">Outdoor Photos</a>
-             </li>
-             <hr class="py-0 my-0">
-             <li class="nav-item px-2 py-0">
-               <a class="nav-link font-weight-bold grey-text"
-                   href="beauty.html" style="font-size: 1.2rem;">Beauty Photos</a>
-             </li>
-             <li class="nav-item px-2 py-0">
-               <a class="nav-link font-weight-bold grey-text"
-                   href="food.html" style="font-size: 1.2rem;">Food Gallery</a>
-             </li>
-             <hr class="py-0 my-0">
-             <li class="nav-item px-2 py-0">
-               <a class="nav-link font-weight-bold grey-text"
-                   href="portrait.html" style="font-size: 1.2rem;">Portrait Photos</a>
-             </li>
-           </ul>
-         </li>
-         <hr class="py-0 my-0">
-         <li class="nav-item px-4">
-           <a class="nav-link"
-               data-offset="90"
-               data-toggle="modal"
-               href="#exampleModal"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-         </li>
-   </ul><!-- Social Icon  -->
- </div>
-</div>
-</div><!-- Use any element to open/show the overlay navigation menu -->
-</div>
-</div>
+    
+      </nav>
+      <!-- Navbar -->
     <div class="container"></div><!-- Intro Section -->
     <div class="view jarallax"
          data-jarallax='{"speed": 0.2}'
@@ -534,30 +516,6 @@
 
       new WOW().init();
     </script> <!--Google Maps-->
-     <script>
-      $(window).scroll(function() {
-
-        if ($(this).scrollTop()>0)
-         {
-            $('#crush').fadeOut();
-         }
-        else
-         {
-          $('#crush').fadeIn();
-         }
-     });
-     </script>
-    
-     <script>
-      $("#menu-click").click(function() {
-        $("#menu-click").fadeOut();
-        $("#crush").fadeOut();
-      });
-      $(".closebtn").click(function() {
-        $("#menu-click").fadeIn();
-        $("#crush").fadeIn();
-      });
-     </script>
 
     <script src="https://maps.google.com/maps/api/js"></script> <!-- Google Maps settings -->
      
