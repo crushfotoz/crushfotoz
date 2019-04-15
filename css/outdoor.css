@@ -22,18 +22,15 @@ body{
 }
 
 .top-nav-collapse {
-  background-color: #2b2b28 !important;
-}
-
-.navbar:not(.top-nav-collapse) {
-  background: transparent !important;
-}
-
-@media (max-width: 991px) {
-  .navbar:not(.top-nav-collapse) {
-    background: #2b2b28 !important;
+  background-color: #242425 !important;
   }
-}
+  
+
+  @media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+  background: #242425 !important;
+  }
+  }
 
 h5 {
   letter-spacing: 3px;

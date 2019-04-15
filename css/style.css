@@ -13,6 +13,8 @@ body{
   overflow-x: hidden;
 }
 
+
+
 @media (max-width: 740px) {
   html,
   body,
@@ -22,19 +24,20 @@ body{
   }
 }
 
-.fixed {
-  background-color: #2b2b28 !important;
-}
-
-.navbar:not(.top-nav-collapse) {
-  background: transparent !important;
-}
-
-@media (max-height: 600px) {
-  .navbar:not(.top-nav-collapse) {
-    background: #2b2b28 !important;
+.top-nav-collapse {
+  background-color: #242425 !important;
   }
-}
+  
+  .navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+  }
+  
+  @media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+  background: #242425 !important;
+  }
+  }
+  
 
 h5 {
   letter-spacing: 3px;

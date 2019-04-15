@@ -43,6 +43,20 @@
 <body>
   <!--Main Navigation-->
   <header>
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+          <div class="container">
+              <a class="navbar-brand text-uppercase white-text" id="crush" style="border:4px solid grey;">crush <span class="red-text">
+                  <i class="fas fa-camera"></i></span> fotoz</a>
+                  <button class="navbar-toggler" type="button">
+                  <span><div class="" id="menu-click"
+                    onclick="openNav()">
+                 <div class="div"></div>
+                 <div class="div"></div>
+                 <div class="div"></div>
+               </div>
+              </span>
+                </button>
+        </nav>
     <!-- The overlay -->
     <div class="overlay fixed-top"
          id="myNav">
@@ -135,22 +149,7 @@
         </div>
       </div>
     </div><!-- Use any element to open/show the overlay navigation menu -->
-    <div class="container-fluid fixed-top">
-      <div class="row">
-        <div class="col-sm-6 pl-5 mt-4">
-              <a class="text-uppercase white-text my-5 ml-5 py-1 px-3"  id="crush" style="border:5px solid grey;">crush <span class="red-text">
-              <i class="fas fa-camera"></i></span> fotoz</a>
-        </div>
-        <div class="col-sm-6">
-          <div class="mt-4" id="menu-click"
-               onclick="openNav()"
-               style="margin-left: 70%;">
-            <div class="div"></div>
-            <div class="div"></div>
-            <div class="div"></div>
-          </div>
-        </div>
-      </div>
+    
     </div>
     <div class="container"></div>
     <div class="view jarallax mb-5"
@@ -419,7 +418,7 @@
                           <div class="text-center py-4 wow animated zoomIn"
                                data-wow-delay="0.2s">
                             <a class="btn btn-sm blue-gradient btn-rounded mx-2 wow animated zoomIn"href="mailto:kandykelvin30@gmail.com">
-                              Send an E-mail</a>
+                             E-mail</a>
                           </div>
                         </div>
                         <div class="col-6 text-center">
@@ -459,255 +458,130 @@
             </div>
           </div>
         </section>
-    <section class="py-5 my-5 mx-5 contact-section px-4 text-center white-text z-depth-1"
-             style="background-image: url('images/94988-cool-background-black-1920x1080-for-ipad-pro.jp'); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 py-4 black-text">
-            <h2 class="h2-responsive font-weight-bold purple-text">Contact Me</h2>
-            <h4 class="h4-responsive">Need a Photographer?</h4>
-            <p>Feel free to reach out to me.</p>
-            <div aria-hidden="true"
-                 aria-labelledby="myModalLabel"
-                 class="modal fade"
-                 id="modalContactForm"
-                 role="dialog"
-                 tabindex="-1">
-              <div class="modal-dialog modal-lg wow animated zoomIn"
-                   role="document">
-                <div class="modal-content">
-                  <div class="modal-header text-center">
-                    <h4 class="modal-title w-100 font-weight-bold">Write me</h4><button aria-label="Close"
-                         class="close"
-                         data-dismiss="modal"
-                         type="button"><span aria-hidden="true">&times;</span></button>
-                  </div>
-                  <div class="modal-body mx-3">
-                    <div class="md-form mb-5">
-                      <input class="form-control validate"
-                           id="form34"
-                           type="text"> <label data-error="wrong"
-                           data-success="right"
-                           for="form34">Your name</label>
-                    </div>
-                    <div class="md-form mb-5">
-                      <input class="form-control validate"
-                           id="form29"
-                           type="email"> <label data-error="wrong"
-                           data-success="right"
-                           for="form29">Your email</label>
-                    </div>
-                    <div class="md-form mb-5">
-                      <input class="form-control validate"
-                           id="form32"
-                           type="text"> <label data-error="wrong"
-                           data-success="right"
-                           for="form32">Subject</label>
-                    </div>
-                    <div class="md-form">
-                      <textarea class="md-textarea form-control"
-                           id="form8"
-                           rows="4"
-                           type="text"></textarea> <label data-error="wrong"
-                           data-success="right"
-                           for="form8">Your message</label>
-                    </div>
-                  </div>
-                  <div class="modal-footer d-flex justify-content-center">
-                    <button class="btn btn-unique">Send</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="text-center py-5 animated wow bounce">
-              <a class="btn blue-gradient"
-                   data-offset="90"
-                   data-toggle="modal"
-                   href="#exampleModal">Contact Me</a>
-            </div>
-          </div>
-          <div class="col-md-6 py-4 black-text">
-            <h2 class="h2-responsive font-weight-bold purple-text">Share</h2>
-            <p>Don't forget to tell your friends and families about me, feel free to share my page with everyone</p><!-- Button trigger modal-->
-            <div class="py-5">
-              <button class="btn blue-gradient animated wow bounce"
-                   data-target="#modalSocial"
-                   data-toggle="modal"
-                   type="button">Share</button>
-            </div><!--Modal: modalSocial-->
-            <div aria-hidden="true"
-                 aria-labelledby="myModalLabel"
-                 class="modal fade"
-                 id="modalSocial"
-                 role="dialog"
-                 tabindex="-1">
-              <div class="modal-dialog cascading-modal"
-                   role="document">
-                <!--Content-->
-                <div class="modal-content">
-                  <!--Header-->
-                  <div class="modal-header light-blue darken-3 white-text">
-                    <h4 class="title">Spread the word!</h4><button aria-label="Close"
-                         class="close"
-                         data-dismiss="modal"
-                         type="button"><span aria-hidden="true">&times;</span></button>
-                  </div><!--Body-->
-                  <div class="modal-body mb-0 text-center">
-                    <!--Facebook-->
-                    <a class="btn btn-md btn-outline-dark blue-text rounded">facebook</a> <a class="btn btn-md btn-outline-dark blue-text rounded">twitter</a> <a class="btn btn-md btn-outline-dark blue-text rounded">gmail</a> <a class=
-                    "btn btn-md btn-outline-dark blue-text rounded">linked-in</a> <a class="btn btn-md btn-outline-dark blue-text rounded">instagram</a>
-                  </div>
-                </div><!--/.Content-->
-              </div>
-            </div><!--Modal: modalSocial-->
-          </div>
-        </div>
-      </div>
-    </section>
-    <div class="py-5 my-5"></div>
-    <section class="mt-5 pt-5"
-             id="footer-page">
-      <footer class="page-footer font-small indigo"
-              style="background-image:url('images/CA0TVG.jpg');background-repeat: no-repeat; background-position: center center; background-size: cover;">
-        <!-- Footer Links -->
-        <div class="d-flex justify-content-center align-items-center">
-          <div class="container text-center py-5">
-            <ul class="nav nav-tabs d-flex justify-content-center"
-                id="myTab"
-                role="tablist">
-              <li class="nav-item px-3 my-3">
-                <a aria-controls="home"
-                    aria-selected="true"
-                    class="nav-link active"
-                    data-toggle="tab"
-                    href="#home"
-                    id="home-tab"
-                    role="tab">Crush fotoZ</a>
-              </li>
-              <li class="nav-item px-4 my-3">
-                <a aria-controls="profile"
-                    aria-selected="false"
-                    class="nav-link"
-                    data-toggle="tab"
-                    href="#contact"
-                    id="profile-tab"
-                    role="tab">Contact</a>
-              </li>
-              <li class="nav-item px-4 my-3">
-                <a aria-controls="contact"
-                    aria-selected="false"
-                    class="nav-link"
-                    data-toggle="tab"
-                    href="#profile"
-                    id="contact-tab"
-                    role="tab">Gallery</a>
-              </li>
-            </ul>
-            <div class="tab-content"
-                 id="myTabContent">
-              <div aria-labelledby="home-tab"
-                   class="tab-pane fade show active py-3"
-                   id="home"
-                   role="tabpanel">
-                <div class="row">
-                  <div class="col-md-4"><img alt="khandee-about-img"
-                       class="img-fluid khandee-about-img"
-                       src="images/FB_IMG_1551735468842.jpg"></div>
-                  <div class="col-md-8 d-flex align-items-center">
-                    <div>
-                      <p class="mt-3">"A great photograph is one that fully expresses what one feels, in the deepest sense, about what is being photographed.”</p>
-                      <p class="text-center">- Ansel Adams</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div aria-labelledby="profile-tab"
-                   class="tab-pane fade py-3"
-                   id="profile"
-                   role="tabpanel">
-                <h3 class="h3-responsive">Relish some of my mouth-dripping photo albums</h3>
-                <div class="text-center py-3">
-                  <ul class="list-unstyled text-center d-flex justify-content-center align-items-center">
-                    <div class="row px-3">
-                      <div class="col-md-3">
-                        <ul>
-                          <li>
-                            <a class="btn aqua-gradient"
-                                href="portrait.html">Portraits</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="col-md-3">
-                        <ul>
-                          <li>
-                            <a class="btn purple-gradient"
-                                href="outdoor.html">Outdoor</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="col-md-3">
-                        <ul>
-                          <li>
-                            <a class="btn peach-gradient"
-                                href="food.html">Food</a>
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="col-md-3">
-                        <ul>
-                          <li>
-                            <a class="btn blue-gradient"
-                                href="beauty.html">Beauty</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
+        <section id="footer-page mt-5">
+            <footer class="page-footer font-small indigo"
+                    style="background-image:url('images/CA0TVG.jpg');background-repeat: no-repeat; background-position: center center; background-size: cover;">
+              <!-- Footer Links -->
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="container text-center py-5">
+                  <ul class="nav nav-tabs d-flex justify-content-center"
+                      id="myTab"
+                      role="tablist">
+                    <li class="nav-item">
+                      <a aria-controls="home"
+                          aria-selected="true"
+                          class="nav-link active"
+                          data-toggle="tab"
+                          href="#home"
+                          id="home-tab"
+                          role="tab">Crush fotoZ</a>
+                    </li>
+                    <li class="nav-item">
+                      <a aria-controls="profile"
+                          aria-selected="false"
+                          class="nav-link"
+                          data-toggle="tab"
+                          href="#contact"
+                          id="profile-tab"
+                          role="tab">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                      <a aria-controls="contact"
+                          aria-selected="false"
+                          class="nav-link"
+                          data-toggle="tab"
+                          href="#profile"
+                          id="contact-tab"
+                          role="tab">Gallery</a>
+                    </li>
                   </ul>
+                  <div class="tab-content"
+                       id="myTabContent">
+                    <div aria-labelledby="home-tab"
+                         class="tab-pane fade show active py-3"
+                         id="home"
+                         role="tabpanel">
+                      <div class="row">
+                        <div class="col-md-4"><img alt="khandee-about-img"
+                             class="img-fluid khandee-about-img"
+                             src="images/FB_IMG_1551735468842.jpg"></div>
+                        <div class="col-md-8 d-flex align-items-center">
+                          <div>
+                            <p class="mt-3">"A great photograph is one that fully expresses what one feels, in the deepest sense, about what is being photographed.”</p>
+                            <p class="text-center">- Ansel Adams</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div aria-labelledby="profile-tab"
+                         class="tab-pane fade py-3"
+                         id="profile"
+                         role="tabpanel">
+                      <h3 class="h3-responsive">Relish some of my mouth-dripping photo albums</h3>
+                      <div class="text-center py-3">
+                        <ul class="list-unstyled text-center d-flex justify-content-center align-items-center">
+                                <li>
+                                  <a class="btn aqua-gradient"
+                                      href="portrait.html">Portraits</a>
+                                </li>
+                                <li>
+                                  <a class="btn purple-gradient"
+                                      href="outdoor.html">Outdoor</a>
+                                </li>
+                                <li>
+                                  <a class="btn peach-gradient"
+                                      href="food.html">Food</a>
+                                </li>
+                                <li>
+                                  <a class="btn blue-gradient"
+                                      href="beauty.html">Beauty</a>
+                                </li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div aria-labelledby="contact-tab"
+                         class="tab-pane fade py-3"
+                         id="contact"
+                         role="tabpanel">
+                      <h2 class="h2-responsive">Need a Photographer to cover your events?</h2>
+                      <p>Send Me a message down below or simply give me a ring ☎</p>
+                      <div class="text-center pt-2">
+                        <a class="btn aqua-gradient btn-rounded mb-4"
+                             data-target="#modalContactForm"
+                             data-toggle="modal"
+                             href="mailto:dantereus1@gmail.com">Message me</a>
+                      </div>
+                      <h4 class="h4-responsive text-muted pb-4">tel: +2348100676657</h4>
+                      <h3 class="h3-responsive">Don't forget to spread the word</h3>
+                      <div class="py-5">
+                        <button class="btn btn-primary"
+                             data-target="#modalSocial"
+                             data-toggle="modal"
+                             type="button">Share</button>
+                      </div>
+                    </div><!-- Grid row-->
+                    <div class="row pb-3">
+                      <!-- Grid column -->
+                      <div class="col-md-12">
+                        <div class="mb-5 flex-center">
+                          <!-- Facebook -->
+                          <a class="fb-ic"></a> <!-- Twitter -->
+                           <a class="tw-ic"></a> <!-- Google +-->
+                           <a class="gplus-ic"></a> <!--Linkedin -->
+                           <a class="li-ic"></a> <!--Instagram-->
+                           <a class="ins-ic"></a> <!--Pinterest-->
+                           <a class="pin-ic"></a>
+                        </div>
+                      </div><!-- Grid column -->
+                    </div><!-- Grid row-->
+                  </div>
                 </div>
               </div>
-              <div aria-labelledby="contact-tab"
-                   class="tab-pane fade py-3"
-                   id="contact"
-                   role="tabpanel">
-                <h2 class="h2-responsive">Need a Photographer to cover your events?</h2>
-                <p>Send Me a message down below or simply give me a ring ☎</p>
-                <div class="text-center pt-2">
-                  <a class="btn aqua-gradient btn-rounded mb-4"
-                       data-target="#modalContactForm"
-                       data-toggle="modal"
-                       href="mailto:dantereus1@gmail.com">Message me</a>
-                </div>
-                <h4 class="h4-responsive text-muted pb-4">tel: +2348100676657</h4>
-                <h3 class="h3-responsive">Don't forget to spread the word</h3>
-                <div class="py-5">
-                  <button class="btn btn-primary"
-                       data-target="#modalSocial"
-                       data-toggle="modal"
-                       type="button">Share</button>
-                </div>
-              </div><!-- Grid row-->
-              <div class="row pb-3">
-                <!-- Grid column -->
-                <div class="col-md-12">
-                  <div class="mb-5 flex-center">
-                    <!-- Facebook -->
-                    <a class="fb-ic"></a> <!-- Twitter -->
-                     <a class="tw-ic"></a> <!-- Google +-->
-                     <a class="gplus-ic"></a> <!--Linkedin -->
-                     <a class="li-ic"></a> <!--Instagram-->
-                     <a class="ins-ic"></a> <!--Pinterest-->
-                     <a class="pin-ic"></a>
-                  </div>
-                </div><!-- Grid column -->
-              </div><!-- Grid row-->
-            </div>
-          </div>
-        </div>
-      </footer>
-    </section><!-- Copyright -->
-    <div class="footer-copyright text-center py-3 white-text">
-      © 2019 Copyright: <a href="https://moses-py/github.io/rexD/">Website designed with <span class="red-text">❤</span> by Rex</a>
-    </div><!-- Copyright -->
+            </footer>
+          </section><!-- Copyright -->
+          <div class="footer-copyright text-center py-3 px-5 white-text">
+            © 2019 Copyright: <a href="https://moses-py/github.io/rexD/">Crush fotoZ</a>
+          </div><!-- Copyright -->
     <script src="js/jquery-3.3.1.min.js"
             type="text/javascript"></script> <!-- Bootstrap tooltips -->
      
@@ -801,7 +675,7 @@
     function openNav() {
       document.getElementById("myNav").style.width = "100%";
       if ($(window).width() <= 768) {  
-        document.getElementById("myNav").style.width = "50%";
+        document.getElementById("myNav").style.width = "100%";
       }     
       
 

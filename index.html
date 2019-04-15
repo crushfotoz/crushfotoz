@@ -43,114 +43,126 @@
 <body>
   <!--Main Navigation-->
   <header>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+    <div class="container">
+        <a class="navbar-brand text-uppercase white-text" id="crush" style="border:4px solid grey;">crush <span class="red-text">
+            <i class="fas fa-camera"></i></span> fotoz</a>
+            <button class="navbar-toggler" type="button">
+            <span><div class="" id="menu-click"
+              onclick="openNav()">
+           <div class="div"></div>
+           <div class="div"></div>
+           <div class="div"></div>
+         </div>
+        </span>
+          </button>
+  </nav>
+  <!-- Navbar -->
     <!-- The overlay -->
-    <div class="overlay fixed-top"
-         id="myNav">
-      <!-- Button to close the overlay navigation -->
-      <a class="closebtn mt-3"
-           href="javascript:void(0)"
-           onclick="closeNav()">&times;</a> <!-- Overlay content -->
-      <div class="overlay-content mt-5">
-          
-        <h1 class="h1-responsive text-uppercase white-text pb-2">crush <span class="red-text text-center">
-            <i class="fas fa-camera"></i></span> fotoz</h1>
-        <div class="container text-center">
-          <img alt=""
-               class="img-fluid rounded-circle khandee-img mb-5"
-               src="images/FB_IMG_1551735468842.jpg">
-               <div class="container d-flex justify-content-center align-items-center">
-                <div class="row text-center"id="social" style="width:30%;">
-                  <div class="col-sm-4 px-0">
-                    <a class="nav-link waves-effect waves-light white-text" href="https://www.twitter.com/khandee_crush" target="_blank">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </div>
-                  <div class="col-sm-4 px-0">
-                    <a class="nav-link waves-effect waves-light white-text"href="https://www.instagram.com/crush_fotoz_" target="_blank">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                  </div>
-                  <div class="col-sm-4 px-0">
-                    <a class="nav-link waves-effect waves-light white-text" href="https://www.facebook.com/crushfotoz/" target="_blank">
-                      <i class="fab fa-facebook"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-          <ul class="navbar-nav mx-auto smooth-scroll">
-              <li class="nav-item px-2">
-                  <a class="nav-link"
-                      href="index.html"><i class="fa fa-fw fa-home"></i> Home<span class="sr-only">(current)</span></a>
-                </li>
-                <hr class="py-0 my-0">
-                <li class="nav-item px-4">
-                  <a class="nav-link"
-                      data-offset="90"
-                      href="about.html"><i class="far fa-address-card"></i> About Me</a>
-                </li>
-                <hr class="py-0 my-0">
-                <li class="nav-item px-4">
-                  <a class="nav-link"
-                      data-offset="90"
-                      href="services.html"><i class="fa fa-fw fa-wrench"></i> Services</a>
-                </li>
-                <li class="nav-item px-4 dropdown">
-                  <a aria-expanded="false"
-                      aria-haspopup="true"
-                      class="nav-link dropdown-toggle grey-text"
-                      data-offset="30"
-                      data-toggle="dropdown"
-                      role="button"><i class="fab fa-envira"></i> Gallery</a>
-                  <ul class="dropdown-menu text-center"
-                      style="background-color:#353230">
-                    <li class="nav-item font-weight-bold px-2 py-0">
-                      <a class="nav-link grey-text"
-                          href="outdoor.html" style="font-size: 1.2rem;">Outdoor Photos</a>
-                    </li>
-                    <hr class="py-0 my-0">
-                    <li class="nav-item px-2 py-0">
-                      <a class="nav-link font-weight-bold grey-text"
-                          href="beauty.html" style="font-size: 1.2rem;">Beauty Photos</a>
-                    </li>
-                    <li class="nav-item px-2 py-0">
-                      <a class="nav-link font-weight-bold grey-text"
-                          href="food.html" style="font-size: 1.2rem;">Food Gallery</a>
-                    </li>
-                    <hr class="py-0 my-0">
-                    <li class="nav-item px-2 py-0">
-                      <a class="nav-link font-weight-bold grey-text"
-                          href="portrait.html" style="font-size: 1.2rem;">Portrait Photos</a>
-                    </li>
-                  </ul>
-                </li>
-                <hr class="py-0 my-0">
-                <li class="nav-item px-4">
-                  <a class="nav-link"
-                      data-offset="90"
-                      data-toggle="modal"
-                      href="#exampleModal"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-                </li>
-          </ul><!-- Social Icon  -->  
-        </div>
-      </div>
-    </div><!-- Use any element to open/show the overlay navigation menu -->
-    <div class="container-fluid fixed-top">
-      <div class="row">
-        <div class="col-sm-6 pl-5 mt-4">
-              <a class="text-uppercase white-text my-5 ml-5 py-1 px-3"  id="crush" style="border:5px solid grey;">crush <span class="red-text">
-              <i class="fas fa-camera"></i></span> fotoz</a>
-        </div>
-        <div class="col-sm-6">
-          <div class="mt-4" id="menu-click"
-               onclick="openNav()"
-               style="margin-left: 70%;">
-            <div class="div"></div>
-            <div class="div"></div>
-            <div class="div"></div>
+
+  <div class="overlay fixed-top"
+  id="myNav">
+<!-- Button to close the overlay navigation -->
+<a class="closebtn mt-3"
+    href="javascript:void(0)"
+    onclick="closeNav()">&times;</a> <!-- Overlay content -->
+<div class="overlay-content mt-5">
+   
+ <h1 class="h1-responsive text-uppercase white-text pb-2">crush <span class="red-text text-center">
+     <i class="fas fa-camera"></i></span> fotoz</h1>
+ <div class="container text-center">
+   <img alt=""
+        class="img-fluid rounded-circle khandee-img mb-5"
+        src="images/FB_IMG_1551735468842.jpg">
+
+        <div class="container d-flex justify-content-center align-items-center">
+          <div class="row text-center"id="social" style="width:30%;">
+            <div class="col-sm-4 px-0">
+              <a class="nav-link waves-effect waves-light white-text" href="https://www.twitter.com/khandee_crush" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+            <div class="col-sm-4 px-0">
+              <a class="nav-link waves-effect waves-light white-text"href="https://www.instagram.com/crush_fotoz_" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <div class="col-sm-4 px-0">
+              <a class="nav-link waves-effect waves-light white-text" href="https://www.facebook.com/crushfotoz/" target="_blank">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
+      <ul class="navbar-nav mx-auto smooth-scroll">
+       <li class="nav-item px-2">
+           <a class="nav-link"
+               href="index.html"><i class="fa fa-fw fa-home"></i> Home<span class="sr-only">(current)</span></a>
+         </li>
+         <hr class="py-0 my-0">
+         <li class="nav-item px-4">
+           <a class="nav-link"
+               data-offset="90"
+               href="about.html"><i class="far fa-address-card"></i> About Me</a>
+         </li>
+         <hr class="py-0 my-0">
+         <li class="nav-item px-4">
+           <a class="nav-link"
+               data-offset="90"
+               href="services.html"><i class="fa fa-fw fa-wrench"></i> Services</a>
+         </li>
+         <li class="nav-item px-4 dropdown">
+           <a aria-expanded="false"
+               aria-haspopup="true"
+               class="nav-link dropdown-toggle grey-text"
+               data-offset="30"
+               data-toggle="dropdown"
+               role="button"><i class="fab fa-envira"></i> Gallery</a>
+           <ul class="dropdown-menu text-center"
+               style="background-color:#353230">
+             <li class="nav-item font-weight-bold px-2 py-0">
+               <a class="nav-link grey-text"
+                   href="outdoor.html" style="font-size: 1.2rem;">Outdoor Photos</a>
+             </li>
+             <hr class="py-0 my-0">
+             <li class="nav-item px-2 py-0">
+               <a class="nav-link font-weight-bold grey-text"
+                   href="beauty.html" style="font-size: 1.2rem;">Beauty Photos</a>
+             </li>
+             <li class="nav-item px-2 py-0">
+               <a class="nav-link font-weight-bold grey-text"
+                   href="food.html" style="font-size: 1.2rem;">Food Gallery</a>
+             </li>
+             <hr class="py-0 my-0">
+             <li class="nav-item px-2 py-0">
+               <a class="nav-link font-weight-bold grey-text"
+                   href="portrait.html" style="font-size: 1.2rem;">Portrait Photos</a>
+             </li>
+           </ul>
+         </li>
+         <hr class="py-0 my-0">
+         <li class="nav-item px-4">
+           <a class="nav-link"
+               data-offset="90"
+               data-toggle="modal"
+               href="#exampleModal"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+         </li>
+   </ul><!-- Social Icon  -->
+ </div>
+</div>
+</div><!-- Use any element to open/show the overlay navigation menu -->
+<div class="container-fluid fixed-top">
+<div class="row">
+ <div class="col-sm-6 pl-5 mt-4">
+       
+ </div>
+ <div class="col-sm-6">
+   
+ </div>
+</div>
+</div>
+    
     <div class="container"></div><!-- Intro Section -->
     <div class="view jarallax"
          data-jarallax='{"speed": 0.2}'
@@ -174,18 +186,18 @@
   <!--Main Layout-->
   <main>
     <section class="grey-bg text-center">
-      <div class="container py-5 my-5">
+      <div class="container-fluid py-5 my-5">
         <!-- Card -->
-        <div class="container">
+        <div class="container-fluid px-4">
           <!-- Card image -->
           <div class="text-center"><img alt=""
                class="img-fluid khandee-img rounded-circle"
-               src="images/Photography-Camera-Logo-PNG-1.png"></div>
+               src="images/7d-side-icon.png"></div>
           <div class="card-body card-body-cascade text-center">
             <!-- Title -->
             <h1 class="card-title h1-responsive font-weight-bold my-3"><strong>My Work</strong></h1><!-- Subtitle -->
             <h5 class="font-weight-bold indigo-text py-2 h5-responsive">I Love Photography</h5><!-- Text -->
-            <p class="card-text font-weight-bold">“Photograph: a picture painted by the sun without instruction in art.” <span class="font-weight-bold blue-text">— Ambrose Bierce</span><br class="py-3"></p>
+            <p class="card-text font-weight-bold">“Photograph: a picture painted by the sun without instruction in art.” <br> <span class="font-weight-bold blue-text">— Ambrose Bierce</span><br class="py-3"></p>
             <p>To me, photography is an art of observation. It’s about finding something interesting in an ordinary place… I really believe there are things nobody would see if I didn’t photograph them.. A tear contains an ocean. A photographer is
             aware of the tiny moments in a persons life that reveal greater truths. If the photographer is interested in the people in front of his lens, and if he is compassionate, it’s already a lot. The instrument is not the camera but the
             photographer.</p>
@@ -326,7 +338,7 @@
                         <div class="text-center py-4 wow animated zoomIn"
                              data-wow-delay="0.2s">
                           <a class="btn btn-sm blue-gradient btn-rounded mx-2 wow animated zoomIn"href="mailto:kandykelvin30@gmail.com">
-                            Send an E-mail</a>
+                            E-mail</a>
                         </div>
                       </div>
                       <div class="col-6 text-center">
@@ -366,7 +378,7 @@
           </div>
         </div>
       </section>
-      <section class="py-5 my-5 mx-5 contact-section px-4 text-center white-text z-depth-1"
+      <section class="py-5 my-5 contact-section px-4 text-center white-text z-depth-1"
                style="background-image: url('images/94988-cool-background-black-1920x1080-for-ipad-pro.jp'); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;">
         <div class="container">
           <div class="row">
@@ -481,7 +493,7 @@
               <ul class="nav nav-tabs d-flex justify-content-center"
                   id="myTab"
                   role="tablist">
-                <li class="nav-item px-3 my-3">
+                <li class="nav-item">
                   <a aria-controls="home"
                       aria-selected="true"
                       class="nav-link active"
@@ -490,7 +502,7 @@
                       id="home-tab"
                       role="tab">Crush fotoZ</a>
                 </li>
-                <li class="nav-item px-4 my-3">
+                <li class="nav-item">
                   <a aria-controls="profile"
                       aria-selected="false"
                       class="nav-link"
@@ -499,7 +511,7 @@
                       id="profile-tab"
                       role="tab">Contact</a>
                 </li>
-                <li class="nav-item px-4 my-3">
+                <li class="nav-item">
                   <a aria-controls="contact"
                       aria-selected="false"
                       class="nav-link"
@@ -534,40 +546,22 @@
                   <h3 class="h3-responsive">Relish some of my mouth-dripping photo albums</h3>
                   <div class="text-center py-3">
                     <ul class="list-unstyled text-center d-flex justify-content-center align-items-center">
-                      <div class="row px-3">
-                        <div class="col-md-3">
-                          <ul>
                             <li>
                               <a class="btn aqua-gradient"
                                   href="portrait.html">Portraits</a>
                             </li>
-                          </ul>
-                        </div>
-                        <div class="col-md-3">
-                          <ul>
                             <li>
                               <a class="btn purple-gradient"
                                   href="outdoor.html">Outdoor</a>
                             </li>
-                          </ul>
-                        </div>
-                        <div class="col-md-3">
-                          <ul>
                             <li>
                               <a class="btn peach-gradient"
                                   href="food.html">Food</a>
                             </li>
-                          </ul>
-                        </div>
-                        <div class="col-md-3">
-                          <ul>
                             <li>
                               <a class="btn blue-gradient"
                                   href="beauty.html">Beauty</a>
                             </li>
-                          </ul>
-                        </div>
-                      </div>
                     </ul>
                   </div>
                 </div>
@@ -611,8 +605,8 @@
           </div>
         </footer>
       </section><!-- Copyright -->
-      <div class="footer-copyright text-center py-3 white-text">
-        © 2019 Copyright: <a href="https://moses-py/github.io/rexD/">Website designed with <span class="red-text">❤</span> by Rex</a>
+      <div class="footer-copyright text-center py-3 px-5 white-text">
+        © 2019 Copyright: <a href="https://moses-py/github.io/rexD/">Crush fotoZ</a>
       </div><!-- Copyright -->
       <script src="js/jquery-3.3.1.min.js"
                type="text/javascript"></script> <!-- Bootstrap tooltips -->
@@ -703,7 +697,7 @@
       function openNav() {
       document.getElementById("myNav").style.width = "100%";
       if ($(window).width() <= 768) {  
-        document.getElementById("myNav").style.width = "50%";
+        document.getElementById("myNav").style.width = "100%";
       }     
       
 
