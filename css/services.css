@@ -1,0 +1,226 @@
+.services-brand{
+    font-size:3.5rem;
+    font-weight: bolde;color:white;
+  }
+  
+  @media(max-width:768px) {
+    .services-brand{
+      font-size:1.8rem;
+      font-weight: bold;
+      font-weight: bolde;color:white;
+    }
+  }
+
+  /* Required for full background image */
+
+html,
+body,
+header,
+.jarallax {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+body{
+  overflow-x: hidden;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #2b2b28 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #2b2b28 !important;
+  }
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+.crush-brand{
+    border: 2px solid white;
+  }
+
+
+  
+  .services-brand{
+    font-size:3.5rem;
+    font-weight: bolder;
+    color:white;
+  }
+  
+  @media(max-width:768px) {
+    .services-brand{
+      font-size:1.8rem;
+      font-weight: bold;
+      font-weight: bolde;color:white;
+    }
+  }
+  .khandee-img{
+    height:350px;
+    width:350px;
+  }
+  
+  .khandee-about-img{
+    height:350px;
+    width:350px;
+    border-radius:100%;
+  }
+  @media (max-width:1700px) and (min-width:765px) {
+    .works{
+      position:relative;
+    }
+    .work-2{
+      position: relative;;
+      left:49%;
+      top:88%;
+    }
+    .work-3{
+      position: relative;;
+      right:49%;
+      top:88%;
+    }
+    body{
+      overflow-x: hidden;
+    } 
+  }
+  
+  @media (max-width:764px) {
+    .works{
+      position:relative;
+    }
+    .work-2{
+      position:relative;
+    }
+    .work-3{
+      position:relative;
+    }
+    .khandee-about-img{
+      height:150px;
+      width:150px;
+      border-radius:100%;
+    }
+    .img-list{
+      height:200px;
+      width:200px;
+    }
+    body{
+      overflow-x: hidden;
+    }    
+  }
+  .contact-section {
+    /* The image used */
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/04/Vintage-red-texture-wallpapers-HD-backgrounds.png");
+    background-attachment: fixed;
+  
+  
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .page-fo0ter{
+    height:600px;
+  }
+  .footer-copyright{
+      background-color:#353230;
+  
+  }
+  .hover-link:hover{
+    background-color: grey;
+  }
+  
+  .hr{
+    border: 10px dotted #ebebe3;
+    width:5%;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+  }
+
+  .img-fluid{
+      border-radius: 20px 20px 0 20px;
+  }
+
+  .dropdown:hover .dropdown-menu:hover{display: block;}
+
+  /* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background: linear-gradient(to bottom right, #000000 20%, #4e342e 100%); /* Black fallback color */
+  background: linear-gradient(to bottom right, #000000 20%, #4e342e 100%,0.1); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 5%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #818181;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  z-index: 1;
+}
+
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.div {
+  width: 35px;
+  height: 5px;
+  background-color: grey;
+  margin: 6px 0;
+}
