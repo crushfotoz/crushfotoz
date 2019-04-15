@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        name="viewport">
+  <meta content="ie=edge"
+        http-equiv="x-ua-compatible">
+  <title>Crush | Photoz</title>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates"
+        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Numans"
+        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rye"
+        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat"
+        rel="stylesheet"><!-- Font Awesome -->
+  <link href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        rel="stylesheet"><!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css"
+        rel="stylesheet"><!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css"
+        rel="stylesheet"><!-- Your custom styles (optional) -->
+  <link href="css/style.css"
+        rel="stylesheet"><!-- Stepper CSS -->
+  <link href="css/addons-pro/steppers.css"
+        rel="stylesheet"><!-- Stepper CSS - minified-->
+  <link href="css/addons-pro/steppers.min.css"
+        rel="stylesheet"><!-- Stepper JavaScript -->
+
+  <script src="js/addons-pro/stepper.js"
+        type="text/javascript"></script><!-- Stepper JavaScript - minified -->
+
+  <script src="js/addons-pro/stepper.min.js"
+        type="text/javascript"></script>
+  <style>
+    a:hover, .dropdown:hover .dropdown-toggle {
+      background-color: #3e2723;
+      border-radius:10px;
+    }
+  </style>
+</head>
+<body>
+  <!--Main Navigation-->
+  <header>
+    <!-- The overlay -->
+    <div class="overlay fixed-top"
+         id="myNav">
+      <!-- Button to close the overlay navigation -->
+      <a class="closebtn mt-3"
+           href="javascript:void(0)"
+           onclick="closeNav()">&times;</a> <!-- Overlay content -->
+      <div class="overlay-content mt-5">
+          
+        <h1 class="h1-responsive text-uppercase white-text pb-2">crush <span class="red-text text-center">
+            <i class="fas fa-camera"></i></span> fotoz</h1>
+        <div class="container text-center">
+          <img alt=""
+               class="img-fluid rounded-circle khandee-img mb-5"
+               src="images/FB_IMG_1551735468842.jpg">
+               <div class="container d-flex justify-content-center align-items-center">
+                <div class="row text-center"id="social" style="width:30%;">
+                  <div class="col-sm-4 px-0">
+                    <a class="nav-link waves-effect waves-light white-text" href="https://www.twitter.com/khandee_crush" target="_blank">
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </div>
+                  <div class="col-sm-4 px-0">
+                    <a class="nav-link waves-effect waves-light white-text"href="https://www.instagram.com/crush_fotoz_" target="_blank">
+                      <i class="fab fa-instagram"></i>
+                    </a>
+                  </div>
+                  <div class="col-sm-4 px-0">
+                    <a class="nav-link waves-effect waves-light white-text" href="https://www.facebook.com/crushfotoz/" target="_blank">
+                      <i class="fab fa-facebook"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+          <ul class="navbar-nav mx-auto smooth-scroll">
+              <li class="nav-item px-2">
+                  <a class="nav-link"
+                      href="index.html"><i class="fa fa-fw fa-home"></i> Home<span class="sr-only">(current)</span></a>
+                </li>
+                <hr class="py-0 my-0">
+                <li class="nav-item px-4">
+                  <a class="nav-link"
+                      data-offset="90"
+                      href="about.html"><i class="far fa-address-card"></i> About Me</a>
+                </li>
+                <hr class="py-0 my-0">
+                <li class="nav-item px-4">
+                  <a class="nav-link"
+                      data-offset="90"
+                      href="services.html"><i class="fa fa-fw fa-wrench"></i> Services</a>
+                </li>
+                <li class="nav-item px-4 dropdown">
+                  <a aria-expanded="false"
+                      aria-haspopup="true"
+                      class="nav-link dropdown-toggle grey-text"
+                      data-offset="30"
+                      data-toggle="dropdown"
+                      role="button"><i class="fab fa-envira"></i> Gallery</a>
+                  <ul class="dropdown-menu text-center"
+                      style="background-color:#353230">
+                    <li class="nav-item font-weight-bold px-2 py-0">
+                      <a class="nav-link grey-text"
+                          href="outdoor.html" style="font-size: 1.2rem;">Outdoor Photos</a>
+                    </li>
+                    <hr class="py-0 my-0">
+                    <li class="nav-item px-2 py-0">
+                      <a class="nav-link font-weight-bold grey-text"
+                          href="beauty.html" style="font-size: 1.2rem;">Beauty Photos</a>
+                    </li>
+                    <li class="nav-item px-2 py-0">
+                      <a class="nav-link font-weight-bold grey-text"
+                          href="food.html" style="font-size: 1.2rem;">Food Gallery</a>
+                    </li>
+                    <hr class="py-0 my-0">
+                    <li class="nav-item px-2 py-0">
+                      <a class="nav-link font-weight-bold grey-text"
+                          href="portrait.html" style="font-size: 1.2rem;">Portrait Photos</a>
+                    </li>
+                  </ul>
+                </li>
+                <hr class="py-0 my-0">
+                <li class="nav-item px-4">
+                  <a class="nav-link"
+                      data-offset="90"
+                      data-toggle="modal"
+                      href="#exampleModal"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+                </li>
+          </ul><!-- Social Icon  -->  
+        </div>
+      </div>
+    </div><!-- Use any element to open/show the overlay navigation menu -->
+    <div class="container-fluid fixed-top">
+      <div class="row">
+        <div class="col-sm-6 pl-5 mt-4">
+              <a class="text-uppercase white-text my-5 ml-5 py-1 px-3"  id="crush" style="border:5px solid grey;">crush <span class="red-text">
+              <i class="fas fa-camera"></i></span> fotoz</a>
+        </div>
+        <div class="col-sm-6">
+          <div class="mt-4" id="menu-click"
+               onclick="openNav()"
+               style="margin-left: 70%;">
+            <div class="div"></div>
+            <div class="div"></div>
+            <div class="div"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container"></div><!-- Intro Section -->
+    <div class="view jarallax"
+         data-jarallax='{"speed": 0.2}'
+         style="background-image: url('images/photography-camera-wallpapers-desktop-background-14172965.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+      <div class="mask rgba-black-strong">
+        <div class="container h-100 d-flex justify-content-center align-items-center">
+          <div class="row pt-5 mt-3">
+            <div class="col-md-12 mb-3">
+              <div class="intro-info-content text-center">
+                <h1 class="h1-responsive text-uppercase crush-brand white-text mb-5 wow fadeInDown"
+                    data-wow-delay="0.3s">Khandee <a class="blue-text font-weight-bold blue-text">Crush</a></h1>
+                <h6 class="text-uppercase h6-responsive white-text mb-5 mt-1 font-weight-bold wow fadeInDown"
+                    data-wow-delay="0.3s">Beauty Photographer</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header><!--Main Navigation-->
+  <!--Main Layout-->
+  <main>
+    <section class="grey-bg text-center">
+      <div class="container py-5 my-5">
+        <!-- Card -->
+        <div class="container">
+          <!-- Card image -->
+          <div class="text-center"><img alt=""
+               class="img-fluid khandee-img rounded-circle"
+               src="images/Photography-Camera-Logo-PNG-1.png"></div>
+          <div class="card-body card-body-cascade text-center">
+            <!-- Title -->
+            <h1 class="card-title h1-responsive font-weight-bold my-3"><strong>My Work</strong></h1><!-- Subtitle -->
+            <h5 class="font-weight-bold indigo-text py-2 h5-responsive">I Love Photography</h5><!-- Text -->
+            <p class="card-text font-weight-bold">“Photograph: a picture painted by the sun without instruction in art.” <span class="font-weight-bold blue-text">— Ambrose Bierce</span><br class="py-3"></p>
+            <p>To me, photography is an art of observation. It’s about finding something interesting in an ordinary place… I really believe there are things nobody would see if I didn’t photograph them.. A tear contains an ocean. A photographer is
+            aware of the tiny moments in a persons life that reveal greater truths. If the photographer is interested in the people in front of his lens, and if he is compassionate, it’s already a lot. The instrument is not the camera but the
+            photographer.</p>
+          </div>
+        </div><!-- Card -->
+      </div><!--Projects section v.4-->
+    </section>
+    <section class="d-flex justify-content-center">
+      <div class="container text-center">
+        <!-- Section heading -->
+        <div class="container text-center">
+          <h2 class="h1-responsive font-weight-bold my-5">My Specialties</h2><!-- Section description -->
+        </div><!-- Grid row -->
+        <div class="row d-flex justify-content-center">
+          <!-- Grid column -->
+          <div class="col-md-6 col-xl-5 mb-4">
+            <!--Featured image-->
+            <div class=""><img alt=""
+                 class="img-fluid"
+                 src="Beauty%20and%20makeup/beauty-background.jpg"></div>
+            <div class="card-body text-center">
+              <a class="green-text"
+                   href="">
+              <h5 class="font-weight-bold mt-2 mb-3 h5-responsive">Photography</h5></a>
+              <h4 class="font-weight-bold mb-3 h4-responsive">Beauty and Make-up</h4>
+              <p>"When the eye makes a statement, the lips should be quiet"</p><a class="btn peach-gradient btn-rounded btn-md wow zoomIn"
+                   data-wow-delay="0.4s"
+                   href="beauty.html">View Album</a>
+            </div>
+          </div><!-- Grid column -->
+          <!-- Grid column -->
+          <div class="col-md-6 col-xl-5 mb-4">
+            <!--Featured image-->
+            <div class=""><img alt=""
+                 class="img-fluid"
+                 src="Food%20Photography/food%20background%204.jpg"></div>
+            <div class="card-body text-center">
+              <a class="blue-text"
+                   href="">
+              <h5 class="font-weight-bold mt-2 mb-3 h5-responsive">Photography</h5></a>
+              <h4 class="font-weight-bold mb-3 h4-responsive">Food Photography</h4>
+              <p>Pull up a chair. Take a taste. Come join us. Life is so endlessly delicious.</p><a class="btn aqua-gradient btn-rounded btn-md wow zoomIn"
+                   data-wow-delay="0.4s"
+                   href="food.html">View Album</a>
+            </div>
+          </div><!-- Grid column -->
+        </div><!-- Grid row -->
+        <!-- Grid row -->
+        <div class="row d-flex justify-content-center">
+          <!-- Grid column -->
+          <div class="col-md-6 col-xl-5 mb-md-0 mb-4 mt-5">
+            <!--Featured image-->
+            <div class=""><img alt=""
+                 class="img-fluid"
+                 src="Food%20Photography/outdoor%20background%203.jpg"></div>
+            <div class="card-body pb-md-0 text-center">
+              <a class="brown-text"
+                   href="">
+              <h5 class="font-weight-bold mt-2 mb-3 h5-responsive">Photography</h5></a>
+              <h4 class="font-weight-bold mb-3 h4-responsive">Outdoor Scenery</h4>
+              <p>Magical moments imbued witha sense of awe.</p><a class="btn blue-gradient btn-rounded btn-md wow zoomIn"
+                   data-wow-delay="0.4s"
+                   href="outdoor.html">View Album</a>
+            </div><!-- Grid column -->
+          </div>
+          <div class="col-md-12 col-xl-5 my-4 py-4">
+            <!--Featured image-->
+            <div class=""><img alt=""
+                 class="img-fluid"
+                 src="Portriats/screen-5.jpg"></div>
+            <div class="card-body text-center">
+              <a class="green-text"
+                   href="">
+              <h5 class="font-weight-bold mt-2 mb-3 h5-responsive">Photography</h5></a>
+              <h4 class="font-weight-bold mb-3 h4-responsive">Portraits</h4>
+              <p>Every portrait that is painted with feeling is a portrait of the artist, not of the sitter.</p><a class="btn purple-gradient btn-rounded btn-md wow zoomIn"
+                   data-wow-delay="0.4s"
+                   href="portrait.html">View Album</a>
+            </div>
+          </div>
+        </div><!-- Grid row -->
+      </div>
+    </section>
+    <section>
+      <section>
+        <div aria-hidden="true"
+             aria-labelledby="exampleModalLabel"
+             class="modal fade"
+             id="exampleModal"
+             role="dialog"
+             tabindex="-1">
+          <div class="modal-dialog modal-lg wow animated zoomIn"
+               role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title text-uppercase"
+                    id="exampleModalLabel">Contact <span class="purple-text">Me</span></h5><button aria-label="Close"
+                     class="close"
+                     data-dismiss="modal"
+                     type="button"><span aria-hidden="true">&times;</span></button>
+              </div>
+              <div class="modal-body">
+                <h4 class="h4-responsive">In need of a Photographer?</h4>
+              </div>
+              <div class="modal-footer wow animated slideInDown"
+                   data-wow-delay="0.2s">
+                <button class="btn btn-dark btn-md"
+                     data-dismiss="modal"
+                     type="button">Nah!</button> <button class="btn blue-gradient btn-md"
+                     data-target="#exampleModal2"
+                     data-toggle="modal"
+                     type="button">Definitely!</button>
+              </div>
+            </div>
+          </div><!-- contact modal -->
+          <div class="container">
+            <div aria-hidden="true"
+                 aria-labelledby="exampleModalLabel"
+                 class="modal fade"
+                 id="exampleModal2"
+                 role="dialog"
+                 tabindex="-1">
+              <div class="modal-dialog modal-lg wow animated zoomIn"
+                   role="document">
+                <div class="modal-content">
+                  <div class="modal-header container">
+                    <h5 class="modal-title text-uppercase"
+                        id="exampleModalLabel">Contact <span class="purple-text">Me</span></h5><button aria-label="Close"
+                         class="close"
+                         data-dismiss="modal"
+                         type="button"><span aria-hidden="true">&times;</span></button>
+                  </div>
+                  <div class="modal-body container">
+                    <div class="row">
+                      <div class="col-6">
+                        <h6 class="h6-responsive text-center">You can send me an email below<br>
+                        👇</h6>
+                        <div class="text-center py-4 wow animated zoomIn"
+                             data-wow-delay="0.2s">
+                          <a class="btn btn-sm blue-gradient btn-rounded mx-2 wow animated zoomIn"href="mailto:kandykelvin30@gmail.com">
+                            Send an E-mail</a>
+                        </div>
+                      </div>
+                      <div class="col-6 text-center">
+                        <h6 class="h6-responsive">Give me a ring ☎ also if you feel like<br>
+                        👇</h6>
+                        <div class="text-center py-4">
+                          <a class="btn btn-sm purple-gradient btn-rounded mx-2"
+                               href="tel:+2348085419856">Make a call</a>
+                        </div>
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="col-12">
+                      <h6 class="h6-responsive text-center">You can also chat me up on social media platforms down below<br>
+                      👇</h6>
+                      <div class="container text-center">
+                        <div class="row py-3">
+                          <div class="container text-center">
+                            <div aria-label="Basic example"
+                                 class="btn-group text-center"
+                                 role="group">
+                              <a class="btn btn-sm blue-gradient btn-rounded mx-2"
+                                   href="https://m.me/akanubong.okpudo"
+                                   target="_blank">Messenger</a>
+                              <a class="btn btn-sm purple-gradient btn-rounded mx-2"
+                                  href="https://wa.me/2348085419856?text=Hello%20Khandee...%20I%27d%20like%20to%20chat%20with%20you">Whatsapp</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer container"></div>
+                </div>
+              </div><!-- contact modal -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="py-5 my-5 mx-5 contact-section px-4 text-center white-text z-depth-1"
+               style="background-image: url('images/94988-cool-background-black-1920x1080-for-ipad-pro.jp'); background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 py-4 black-text">
+              <h2 class="h2-responsive font-weight-bold purple-text">Contact Me</h2>
+              <h4 class="h4-responsive">Need a Photographer?</h4>
+              <p>Feel free to reach out to me.</p>
+              <div aria-hidden="true"
+                   aria-labelledby="myModalLabel"
+                   class="modal fade"
+                   id="modalContactForm"
+                   role="dialog"
+                   tabindex="-1">
+                <div class="modal-dialog modal-lg wow animated zoomIn"
+                     role="document">
+                  <div class="modal-content">
+                    <div class="modal-header text-center">
+                      <h4 class="modal-title w-100 font-weight-bold">Write me</h4><button aria-label="Close"
+                           class="close"
+                           data-dismiss="modal"
+                           type="button"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body mx-3">
+                      <div class="md-form mb-5">
+                        <input class="form-control validate"
+                             id="form34"
+                             type="text"> <label data-error="wrong"
+                             data-success="right"
+                             for="form34">Your name</label>
+                      </div>
+                      <div class="md-form mb-5">
+                        <input class="form-control validate"
+                             id="form29"
+                             type="email"> <label data-error="wrong"
+                             data-success="right"
+                             for="form29">Your email</label>
+                      </div>
+                      <div class="md-form mb-5">
+                        <input class="form-control validate"
+                             id="form32"
+                             type="text"> <label data-error="wrong"
+                             data-success="right"
+                             for="form32">Subject</label>
+                      </div>
+                      <div class="md-form">
+                        <textarea class="md-textarea form-control"
+                             id="form8"
+                             rows="4"
+                             type="text"></textarea> <label data-error="wrong"
+                             data-success="right"
+                             for="form8">Your message</label>
+                      </div>
+                    </div>
+                    <div class="modal-footer d-flex justify-content-center">
+                      <a class="btn purple-gradient" >Send</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="text-center py-5 animated wow bounce">
+                <a class="btn blue-gradient"
+                     data-offset="90"
+                     data-toggle="modal"
+                     href="#exampleModal">Contact Me</a>
+              </div>
+            </div>
+            <div class="col-md-6 py-4 black-text">
+              <h2 class="h2-responsive font-weight-bold purple-text">Share</h2>
+              <p>Don't forget to tell your friends and families about me, feel free to share my page with everyone</p><!-- Button trigger modal-->
+              <div class="py-5">
+                <button class="btn blue-gradient animated wow bounce"
+                     data-target="#modalSocial"
+                     data-toggle="modal"
+                     type="button">Share</button>
+              </div><!--Modal: modalSocial-->
+              <div aria-hidden="true"
+                   aria-labelledby="myModalLabel"
+                   class="modal fade"
+                   id="modalSocial"
+                   role="dialog"
+                   tabindex="-1">
+                <div class="modal-dialog cascading-modal"
+                     role="document">
+                  <!--Content-->
+                  <div class="modal-content">
+                    <!--Header-->
+                    <div class="modal-header light-blue darken-3 white-text">
+                      <h4 class="title">Spread the word!</h4><button aria-label="Close"
+                           class="close"
+                           data-dismiss="modal"
+                           type="button"><span aria-hidden="true">&times;</span></button>
+                    </div><!--Body-->
+                    <div class="modal-body mb-0 text-center">
+                      <!--Facebook-->
+                      <a class="btn btn-md btn-outline-dark blue-text rounded">facebook</a> <a class="btn btn-md btn-outline-dark blue-text rounded">twitter</a> <a class="btn btn-md btn-outline-dark blue-text rounded">gmail</a> <a class=
+                      "btn btn-md btn-outline-dark blue-text rounded">linked-in</a> <a class="btn btn-md btn-outline-dark blue-text rounded">instagram</a>
+                    </div>
+                  </div><!--/.Content-->
+                </div>
+              </div><!--Modal: modalSocial-->
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="py-5 my-5"></div>
+      <section id="footer-page mt-5">
+        <footer class="page-footer font-small indigo"
+                style="background-image:url('images/CA0TVG.jpg');background-repeat: no-repeat; background-position: center center; background-size: cover;">
+          <!-- Footer Links -->
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="container text-center py-5">
+              <ul class="nav nav-tabs d-flex justify-content-center"
+                  id="myTab"
+                  role="tablist">
+                <li class="nav-item px-3 my-3">
+                  <a aria-controls="home"
+                      aria-selected="true"
+                      class="nav-link active"
+                      data-toggle="tab"
+                      href="#home"
+                      id="home-tab"
+                      role="tab">Crush fotoZ</a>
+                </li>
+                <li class="nav-item px-4 my-3">
+                  <a aria-controls="profile"
+                      aria-selected="false"
+                      class="nav-link"
+                      data-toggle="tab"
+                      href="#contact"
+                      id="profile-tab"
+                      role="tab">Contact</a>
+                </li>
+                <li class="nav-item px-4 my-3">
+                  <a aria-controls="contact"
+                      aria-selected="false"
+                      class="nav-link"
+                      data-toggle="tab"
+                      href="#profile"
+                      id="contact-tab"
+                      role="tab">Gallery</a>
+                </li>
+              </ul>
+              <div class="tab-content"
+                   id="myTabContent">
+                <div aria-labelledby="home-tab"
+                     class="tab-pane fade show active py-3"
+                     id="home"
+                     role="tabpanel">
+                  <div class="row">
+                    <div class="col-md-4"><img alt="khandee-about-img"
+                         class="img-fluid khandee-about-img"
+                         src="images/FB_IMG_1551735468842.jpg"></div>
+                    <div class="col-md-8 d-flex align-items-center">
+                      <div>
+                        <p class="mt-3">"A great photograph is one that fully expresses what one feels, in the deepest sense, about what is being photographed.”</p>
+                        <p class="text-center">- Ansel Adams</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div aria-labelledby="profile-tab"
+                     class="tab-pane fade py-3"
+                     id="profile"
+                     role="tabpanel">
+                  <h3 class="h3-responsive">Relish some of my mouth-dripping photo albums</h3>
+                  <div class="text-center py-3">
+                    <ul class="list-unstyled text-center d-flex justify-content-center align-items-center">
+                      <div class="row px-3">
+                        <div class="col-md-3">
+                          <ul>
+                            <li>
+                              <a class="btn aqua-gradient"
+                                  href="portrait.html">Portraits</a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-md-3">
+                          <ul>
+                            <li>
+                              <a class="btn purple-gradient"
+                                  href="outdoor.html">Outdoor</a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-md-3">
+                          <ul>
+                            <li>
+                              <a class="btn peach-gradient"
+                                  href="food.html">Food</a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="col-md-3">
+                          <ul>
+                            <li>
+                              <a class="btn blue-gradient"
+                                  href="beauty.html">Beauty</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </ul>
+                  </div>
+                </div>
+                <div aria-labelledby="contact-tab"
+                     class="tab-pane fade py-3"
+                     id="contact"
+                     role="tabpanel">
+                  <h2 class="h2-responsive">Need a Photographer to cover your events?</h2>
+                  <p>Send Me a message down below or simply give me a ring ☎</p>
+                  <div class="text-center pt-2">
+                    <a class="btn aqua-gradient btn-rounded mb-4"
+                         data-target="#modalContactForm"
+                         data-toggle="modal"
+                         href="mailto:dantereus1@gmail.com">Message me</a>
+                  </div>
+                  <h4 class="h4-responsive text-muted pb-4">tel: +2348100676657</h4>
+                  <h3 class="h3-responsive">Don't forget to spread the word</h3>
+                  <div class="py-5">
+                    <button class="btn btn-primary"
+                         data-target="#modalSocial"
+                         data-toggle="modal"
+                         type="button">Share</button>
+                  </div>
+                </div><!-- Grid row-->
+                <div class="row pb-3">
+                  <!-- Grid column -->
+                  <div class="col-md-12">
+                    <div class="mb-5 flex-center">
+                      <!-- Facebook -->
+                      <a class="fb-ic"></a> <!-- Twitter -->
+                       <a class="tw-ic"></a> <!-- Google +-->
+                       <a class="gplus-ic"></a> <!--Linkedin -->
+                       <a class="li-ic"></a> <!--Instagram-->
+                       <a class="ins-ic"></a> <!--Pinterest-->
+                       <a class="pin-ic"></a>
+                    </div>
+                  </div><!-- Grid column -->
+                </div><!-- Grid row-->
+              </div>
+            </div>
+          </div>
+        </footer>
+      </section><!-- Copyright -->
+      <div class="footer-copyright text-center py-3 white-text">
+        © 2019 Copyright: <a href="https://moses-py/github.io/rexD/">Website designed with <span class="red-text">❤</span> by Rex</a>
+      </div><!-- Copyright -->
+      <script src="js/jquery-3.3.1.min.js"
+               type="text/javascript"></script> <!-- Bootstrap tooltips -->
+       
+      <script src="js/popper.min.js"
+               type="text/javascript"></script> <!-- Bootstrap core JavaScript -->
+       
+      <script src="js/bootstrap.min.js"
+               type="text/javascript"></script> <!-- MDB core JavaScript -->
+       
+      <script src="js/mdb.js"
+               type="text/javascript"></script> 
+      <script src="index.js"></script>
+
+      <script>
+      $(window).scroll(function() {
+
+        if ($(this).scrollTop()>0)
+         {
+            $('#crush').fadeOut();
+         }
+        else
+         {
+          $('#crush').fadeIn();
+         }
+     });
+     </script>
+    
+     <script>
+      $("#menu-click").click(function() {
+        $("#menu-click").fadeOut();
+        $("#crush").fadeOut();
+      });
+      $(".closebtn").click(function() {
+        $("#menu-click").fadeIn();
+        $("#crush").fadeIn();
+      });
+     </script>
+
+
+      <script>
+
+      $(document).ready(function () {
+      $('.stepper').mdbStepper();
+      })
+      </script> 
+      <script>
+
+      new WOW().init();
+      </script> <!--Google Maps-->
+       
+      <script src="https://maps.google.com/maps/api/js"></script> <!-- Google Maps settings -->
+       
+      <script>
+
+        // Regular map
+        function regular_map() {
+          var var_location = new google.maps.LatLng(40.725118, -73.997699);
+        
+          var var_mapoptions = {
+            center: var_location,
+            zoom: 14
+          };
+        
+          var var_map = new google.maps.Map(document.getElementById("map-container"),
+            var_mapoptions);
+        
+          var var_marker = new google.maps.Marker({
+            position: var_location,
+            map: var_map,
+            title: "New York"
+          });
+        }
+
+        // Initialize maps
+        google.maps.event.addDomListener(window, 'load', regular_map);
+      </script> <!-- Carousel options -->
+       
+      <script>
+
+      $('.carousel').carousel({
+        interval: 3000,
+      })
+      </script> 
+      <script>
+
+      /* Open when someone clicks on the span element */
+      function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+      if ($(window).width() <= 768) {  
+        document.getElementById("myNav").style.width = "50%";
+      }     
+      
+
+
+      } 
+      
+      /* Close when someone clicks on the "x" symbol inside the overlay */
+      function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+      }
+      </script>
+    </section>
+  </main>
+</body>
+</html>
