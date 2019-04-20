@@ -21,9 +21,7 @@ header,
   font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
 }
-body{
-  overflow-x: hidden;
-}
+
 
 @media (max-width: 740px) {
   html,
