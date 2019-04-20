@@ -7,6 +7,11 @@
   <meta content="ie=edge"
         http-equiv="x-ua-compatible">
   <title>Crush | Photoz</title>
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Alegreya+Sans:400,800' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link crossorigin="anonymous"href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates"
         rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Numans"
@@ -40,104 +45,38 @@
     }
   </style>
 </head>
-<body>
+<body  onscroll="menubtn()">
 <!-- Main navigation -->
 <header>
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
-  
-      <div class="container">
-  
-          <a class="navbar-brand text-uppercase white-text px-3" id="crush" style="border:2px solid grey;">crush <span class="red-text">
-              <i class="fas fa-camera"></i></span> fotoz</a>  
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-  
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-  
-          <ul class="navbar-nav mr-auto smooth-scroll list-unstyled">
-              <li class="nav-item px-3">
-                  <a class="nav-link"
-                      href="index.html"><i class="fa fa-fw fa-home"></i> Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item px-3">
-                  <a class="nav-link"
-                      data-offset="90"
-                      href="about.html"><i class="far fa-address-card"></i> About Me</a>
-                </li>
-                <li class="nav-item px-3">
-                  <a class="nav-link"
-                      data-offset="90"
-                      href="services.html"><i class="fa fa-fw fa-wrench"></i> Services</a>
-                </li>
-                <li class="nav-item px-3 dropdown">
-                  <a aria-expanded="false"
-                      aria-haspopup="true"
-                      class="nav-link dropdown-toggle white-text"
-                      data-offset="30"
-                      data-toggle="dropdown"
-                      role="button"><i class="fab fa-envira"></i> Gallery</a>
-                  <ul class="dropdown-menu text-center"
-                      style="background-color:#353230">
-                    <li class="nav-item">
-                      <a class="nav-link grey-text"
-                          href="outdoor.html">Outdoor Photos</a>
-                    </li>
-                    <li class="nav-item px-2 py-0">
-                      <a class="nav-link font-weight-bold grey-text"
-                          href="beauty.html">Beauty Photos</a>
-                    </li>
-                    <li class="nav-item px-2 py-0">
-                      <a class="nav-link font-weight-bold grey-text"
-                          href="food.html">Food Gallery</a>
-                    </li>
-                    <hr class="py-0 my-0">
-                    <li class="nav-item px-2 py-0">
-                      <a class="nav-link font-weight-bold grey-text"
-                          href="portrait.html">Portrait Photos</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item px-3">
-                  <a class="nav-link"
-                      data-offset="90"
-                      data-toggle="modal"
-                      href="#exampleModal"><i class="fa fa-fw fa-envelope"></i> Contact</a>
-                </li>
-          </ul>
-  
-          <!-- Social Icon  -->
-          <ul class="navbar-nav nav-flex-icons px-4">
-              <li class="px-0 nav-item">
-                  <a class="nav-link waves-effect waves-light white-text" href="https://www.twitter.com/khandee_crush" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                  </a>
-                </li>
-                <li class="px-0 nav-item">
-                  <a class="nav-link waves-effect waves-light white-text"href="https://www.instagram.com/crush_fotoz_" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </li>
-                <li class="px-0 nav-item">
-                  <a class="nav-link waves-effect waves-light white-text" href="https://www.facebook.com/crushfotoz/" target="_blank">
-                    <i class="fab fa-facebook"></i>
-                  </a>
-                </li>
-          </ul>
-  
-        </div>
-  
+  <div class="menu">
+    <input type="checkbox" id="toggle" />
+    <label id="show-menu" for="toggle">
+      <div class="btn"id="menu-btn">
+        <i class="material-icons md-36 toggleBtn menuBtn">menu</i>
+        <i class="material-icons md-36 toggleBtn closeBtn">close</i>
       </div>
-  
-    </nav>
+      <div class="btn">
+        <i class="material-icons md-36">photo_camera</i>
+      </div>
+      <div class="btn">
+        <i class="material-icons md-36">photo</i>
+      </div>
+      <div class="btn">
+        <a class="material-icons md-36" href="https://www.facebook.com">music_note</a>
+      </div>
+      <div class="btn">
+        <i class="material-icons md-36">chat_bubble</i>
+      </div>
+      <div class="btn">
+        <i class="material-icons md-36">settings</i>
+      </div>
+    </label>
+  </div>
     <!-- Navbar -->
     <div class="container"></div><!-- Intro Section -->
     <div class="view jarallax"
          data-jarallax='{"speed": 0.2}'
-         style="background-image: url('images/photography-camera-wallpapers-desktop-background-14172965.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+         style="background-image: url('laptop-3174729_960_720.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
       <div class="mask rgba-black-strong">
         <div class="container h-100 d-flex justify-content-center align-items-center">
           <div class="row pt-5 mt-3">
@@ -656,6 +595,7 @@
       document.getElementById("myNav").style.width = "0%";
       }
       </script>
+
     </section>
   </main>
 </body>
