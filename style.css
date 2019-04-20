@@ -1,0 +1,330 @@
+/* Required for full background image */
+
+html,
+body,
+header,
+.jarallax {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .jarallax {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background: linear-gradient(to bottom right, #212121 0%, #37474f 100%);  }
+  
+  .navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+  }
+  
+  @media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: linear-gradient(to bottom right, #212121 0%, #37474f 100%);  }
+  }
+  
+
+h5 {
+  letter-spacing: 3px;
+}
+
+
+.crush-brand{
+  font-size:3.5rem;
+  font-weight: bolder;
+  color:white;
+}
+
+@media(max-width:768px) {
+  .crush-brand{
+    font-size:1.8rem;
+    font-weight: bold;
+    font-weight: bolder;color:white;
+  }
+  #social{
+    width:100%;
+  }
+}
+
+
+.khandee-img{
+  height:250px;
+  width:250px;
+}
+
+.khandee-about-img{
+  height:350px;
+  width:350px;
+  border-radius:100%;
+}
+@media (max-width:1700px) and (min-width:765px) {
+  .works{
+    position:relative;
+  }
+  .work-2{
+    position: relative;;
+    left:49%;
+    top:88%;
+  }
+  .work-3{
+    position: relative;;
+    right:49%;
+    top:88%;
+  }
+}
+
+@media (max-width:764px) {
+  .works{
+    position:relative;
+  }
+  .work-2{
+    position:relative;
+  }
+  .work-3{
+    position:relative;
+  }
+  .khandee-about-img{
+    height:150px;
+    width:150px;
+    border-radius:100%;
+  }
+  .img-list{
+    height:200px;
+    width:200px;
+  }
+}
+.contact-section {
+  /* The image used */
+  background-image: url("C:/Users/Gebruiker/Desktop/khandee/images/testi-bg.jpg");
+
+
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.page-fo0ter{
+  height:600px;
+}
+.footer-copyright{
+    background-color:#353230;
+
+}
+.hover-link:hover{
+  background-color: grey;
+}
+
+.hr{
+  border: 10px dotted #ebebe3;
+  width:5%;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+}
+
+
+img:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s; 
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite; 
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  background: linear-gradient(to bottom right, #000000 20%, #4e342e 100%); /* Black fallback color */
+  background: linear-gradient(to bottom right, #000000 20%, #4e342e 100%,0.1); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 5%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  z-index: 1;
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #818181;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  z-index: 1;
+}
+
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.div {
+  width: 35px;
+  height: 5px;
+  background-color: grey;
+  margin: 6px 0;
+}
+
+input {position: absolute; display: none}
+
+* {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.menu {
+  margin: 0 auto;
+  position: fixed;
+  top: 93%;
+  left: 50%;
+  margin-left: -25px;
+  margin-top: -25px;
+  z-index:100;
+
+ 
+
+}
+
+div.btn {
+  width: 70px;
+  height: 70px;
+  border-radius: 70px;
+  position: absolute;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.material-icons.md-36 { font-size: 36px; color: purple; }
+
+div.btn {
+  background: whitesmoke;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  
+  -webkit-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+div.btn:not(:first-child) {
+  opacity: 0;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  z-index: -2;
+  
+  -webkit-transition: all 0.6s cubic-bezier(.87,-.41,.19,1.44);
+  transition: all 0.6s cubic-bezier(.87,-.41,.19,1.44);
+}
+
+div.btn:nth-child(2) {top:0px;-webkit-transition-delay: 0s;transition-delay: 0s}
+div.btn:nth-child(3) {top:0px;left:0px;-webkit-transition-delay: 0.1s;transition-delay: 0.1s}
+div.btn:nth-child(4) {left:0px;;-webkit-transition-delay: 0.2s;;transition-delay: 0.2s}
+div.btn:nth-child(5) {top:0px;left:0px;-webkit-transition-delay: 0.3s;transition-delay: 0.3s}
+div.btn:nth-child(6) {top:0px;-webkit-transition-delay: 0.4s;transition-delay: 0.4s}
+
+input#toggle:checked ~ #show-menu .btn:nth-child(4) {
+  top:-150px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+input#toggle:checked ~ #show-menu .btn:nth-child(5) {
+  top:-100px;left:100px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+input#toggle:checked ~ #show-menu .btn:nth-child(6) {
+  left:150px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+
+input#toggle:checked ~ #show-menu .btn:nth-child(2) {
+  left:-150px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+input#toggle:checked ~ #show-menu .btn:nth-child(3) {
+  top:-100px;left:-100px;opacity:1;-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.menuBtn, .closeBtn {
+  position: absolute;
+  transition: all 0.3s ease;
+}
+
+.closeBtn {
+  transform: translateY(50px);
+  opacity: 0;
+}
+
+input#toggle:checked ~ #show-menu .btn .menuBtn {
+  transform: translateY(-50px);
+  opacity: 0;
+}
+
+input#toggle:checked ~ #show-menu .btn .closeBtn {
+  transform: translateY(0px);
+  opacity: 1;
+}
